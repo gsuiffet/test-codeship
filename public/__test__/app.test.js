@@ -1,6 +1,6 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import {App} from '../app.js'
+var React = require('react');
+var renderer = require('react-test-renderer');
+var {App} = require('../app.js');
 
 describe('components', function() {
     describe('<DashboardX/>', function() {
