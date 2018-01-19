@@ -9,6 +9,7 @@ class App extends React.Component {
             <div>
                 <h1>ma 1ere App</h1>
                 <p>Paragraphe text</p>
+                <p>Paragraphe text</p>
             </div>
         )
     }
