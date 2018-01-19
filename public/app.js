@@ -1,3 +1,5 @@
+var React = require('react');
+
 class App extends React.Component {
     constructor() {
         super();
@@ -11,7 +13,4 @@ class App extends React.Component {
     }
 }
 
-ReactDOM.render(
-    <App/>,
-    document.getElementById('container')
-);
+module.exports = App;
